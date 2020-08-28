@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Randomizer </title>
+    <!-- ========================= STYLES -->
+    <link rel="stylesheet" href="./ressources/bootstrap.css">
+    <link rel="stylesheet" href="./ressources/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./ressources/CountUp.js"></script>
+    <script src="./ressources/jquery.js"></script>
+</head>
+
+<body>
+    <div id="innerbody">
+        <div id="sidebar">
+            <div id="header">
+                <h2 class="title"> Randomizer </h2>
+                <p class="sub"> Generat a random number</p>
+            </div>
+            <div id="form">
+                <label for="minimal"> Val minimal </label>
+                <input type="number" id="minimal" value="1">
+                
+                <label for="maximal"> Val maximal </label>
+                <input type="number" id="maximal" value="100">
+            </div>
+            <div id="quotes">
+                <p>
+                    Que vos actes ne trahissent pas vos decisions
+                </p>
+            </div>
+        </div>
+
+        <div id="nonesidebar">
+            <div id="header">
+                <a href=""> Home </a>
+                <!-- <a href=""> About </a> -->
+            </div>
+
+            <div id="content">
+                
+                <div id="numeric">
+                    <img id="ellipse1" src="./ressources/Ellipse 1.png" alt="">
+                    <img id="ellipse2" src="./ressources/Ellipse 2.png" alt="">
+                    <p id="number"> 000 </p>
+                </div>
+
+                <!-- <p id="btn"> Generer </p> -->
+                <button id="btn"> Generer </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================= SCRIPT  -->
+    
+    <script src="./ressources/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
